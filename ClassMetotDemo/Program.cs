@@ -21,7 +21,7 @@ namespace ClassMetotDemo
             Musteri musteri3= new Musteri();
             musteri3.MusteriAdi = "Merve";
             musteri3.MusteriSoyadı = "Akın";
-            musteri3.MusteriYas = 30;
+            musteri3.MusteriYas = 35;
             musteri3.Cinsiyet = "Kadın";
 
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2, musteri3 };
@@ -45,6 +45,5 @@ namespace ClassMetotDemo
             musteriManager.Silme(musteri2);
             musteriManager.Silme(musteri3);
         }
-    
     }
 }
